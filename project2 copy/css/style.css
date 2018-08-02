@@ -1,0 +1,71 @@
+body{
+    background-color:#37393d;
+    font-family:'Arial black';
+    color:#aaa;
+    height:100%;
+    overflow:hidden;
+    
+}
+
+
+
+#myInput{
+    position:absolute;
+    z-index:1000;
+    margin-left:80px;
+}
+.myInput{
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    font-size:12px;
+}
+
+#mapid {
+    margin:0;
+    height:98%;
+    width:100%;
+    float:left;
+}
+
+#wrapper{
+    background-color:rgba(70,70,70,0.5);
+    z-index:1000;
+    position:absolute;
+    margin-left:66%;
+    width:400px;
+    height:100%;
+}
+
+
+
+.barContainer {
+   margin:auto;
+
+}
+
+.pieContainer {
+    border:5px solid black;
+    
+}
+
+
+
+
+.axis path,line{
+    shape-rendering: crispEdges;
+    
+}
+
+
+.yAxisSelector{
+    
+    float:left;
+    
+}
+
+text{
+    fill:white;
+    font-family:'Arial';
+    font-size:10px;
+}

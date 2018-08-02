@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html>
+<head>
+    
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="css/leaflet.css" />
+<script src="javascript/leaflet.js"></script>
+    
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
+
+<script src="javascript/dictionary.js"></script>
+
+    
+<title>U.S. Imports/Exports</title>
+</head>
+    
+<body>
+    
+    <div id="myInput">
+    <form class="myInput">
+        <input type="checkbox" class="years" id="y2013" checked>2013
+        <input type="checkbox" class="years" id="y2014">2014
+        <input type="checkbox" class="years" id="y2015">2015
+        <input type="checkbox" class="years" id="y2016">2016
+    </form>
+    
+    <form class="myInput">
+        <input type="radio" class="trade" name="transfer" id="import" checked>Import
+        <input type="radio" class="trade" name="transfer" id="export">Export
+    </form>
+    
+    <form class="myInput">
+        <input type="radio" class="category" name="filter" id="country" checked>Country
+        <input type="radio" class="category" name="filter" id="commodity">Commodity
+    </form>
+    </div>
+    
+    
+    <div id="mapid">
+    </div>
+    
+    <div id="wrapper">
+    <div class="barContainer">
+    </div>   
+    
+   <div class="pieContainer">
+    </div>
+    </div>
+    
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<script src="us-states.json"></script>
+<script src="javascript/barChart.js"></script>
+<script src="javascript/statesmap.js"></script> 
+
+</body>
+</html>

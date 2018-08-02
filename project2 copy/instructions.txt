@@ -1,0 +1,31 @@
+Visualization that investigates imports and exports to and from US states to other countries
+	Will enable user to investigate and answer the following questions:
+		What are the most popular exports from the US?
+		Which countries are the most popular trading partners?
+		What imports/exports are more popular in different parts of the US?
+		Where is trade increasing or decreasing?
+		What are some unexpected imports/exports?
+
+The visualization will make use of maps as well as other charts.
+
+Interface will start with a meaningful ‘overview’ of the data. The user will be able to interact with the overview and make specific selections and see additional information.
+
+	Show import and export data for all US states at one year (2016)
+	Overview showing aggregate amounts of imports/exports and trading partners
+	Enable user to pick from list of commodities and compare the trading of that commodity across different states
+	Enable user to pick one US state from a map and the visualization should show:
+		Second map or chart showing where imports and exports come from or go to and the amount
+		Chart showing relative amounts of different types of commodities at different hierarchical levels
+
+
+	
+	Show data from all years (2013-2016) and allow user to pick a particular year; the visualization should update accordingly
+	Enable user to pick foreign country or region from a list or map and see:
+		top imports/exports from/to that region
+		map and chart showing which states are the biggest trading partners for that country/region help the user make comparisons
+	Help the user make more explicit comparison between:
+		states; years; foreign countries
+
+	Use your visualization to explore the data, and document trends and changes
+	
+
